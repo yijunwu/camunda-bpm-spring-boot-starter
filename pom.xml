@@ -11,6 +11,7 @@
 
   <groupId>org.camunda.bpm.springboot.project</groupId>
   <artifactId>camunda-bpm-spring-boot-starter-root</artifactId>
+  <inceptionYear>2015</inceptionYear>
   <version>3.3.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
@@ -162,6 +163,10 @@
         </configuration>
       </plugin>
 
+      <plugin>
+        <groupId>com.mycila</groupId>
+        <artifactId>license-maven-plugin</artifactId>
+      </plugin>
     </plugins>
   </build>
 
